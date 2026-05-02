@@ -1,21 +1,7 @@
-Data Structures Project
+# Data Structures and Graph Algorithms
 
-This repository contains the source code and implementations developed for the Data Structures (EDA) course. The project focuses on the efficiency, complexity, and memory management of fundamental algorithms using the C language.
+This repository contains the practical work I developed for my Advanced Data Structures (EDA) course. Instead of using high-level libraries, I implemented everything from scratch in C to truly understand how data is managed and optimized at a low level.
 
-Overview
+The project evolved through two distinct phases. In the first part, I focused on the foundations of dynamic memory, implementing matrices and linked lists to handle information efficiently[cite: 1].
 
-The objective of this project is to implement and analyze core data structures and algorithms. It covers:
-
-    Core Structures: Implementation of Linked Lists, Trees, or Graphs.
-
-    Algorithm Analysis: Performance evaluation of sorting and searching methods.
-
-    Memory Management: Low-level manipulation using pointers and dynamic allocation.
-
-Tech Stack
-
-    Language: C
-
-    Compiler: GCC
-
-    Tools: Makefiles / Standard C Library
+The second phase introduced a significant jump in complexity: **Graphs**. By developing a graph structure, which can be found in the `grafo.h` and `struct.h` files, I was able to model complex connections between data points, allowing for neighbor analysis and traversals[cite: 1]. I also integrated **Doxygen** to generate technical documentation, which helped me keep the architecture organized and maintainable.
